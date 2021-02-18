@@ -6,13 +6,14 @@
 
 h1 {
     color: #3cb3b3;
-    margin-top: 0;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
-    font-size: 300%;
+    font-size: 5rem; /*16px = 100% = 1em = 1rem (Doesn't add up the parent's font-size) */
     line-height: 2;
 }
 
 body {
+    color: #40514E;
     font-family: cursive;
     margin: 0;
     text-align: center;
@@ -21,11 +22,16 @@ body {
 h2 {
     color: #3cb3b3;
     font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
 }
 
 h3, a {
     color: #11999E;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .mid-container {
@@ -41,6 +47,9 @@ h3, a {
     height: 200px;
     margin-left: 520px;
     width: 200px; */
+    background-color: #66bfbf;
+    height: 30%;
+    margin: 30px auto auto auto;
 }
 
 /* #full-stack {
@@ -71,3 +80,60 @@ h3, a {
 .footer-link, .btn {
     font-weight: bold;
 }
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.skill-row {
+    line-height: 2;
+    text-align: left;
+}
+
+.images-skill {
+    float: left;
+    margin-right: 30px;
+    width: 15%;
+    height: 15%;
+}
+
+.images-passion {
+    float: right;
+    margin-left: 30px;
+    width: 15%;
+    height: 15%;
+}
+
+.BUTTON_MCI {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    font-family: Times New Roman;
+    width: 185px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 12px;
+    background-color: #2771C5;
+    text-shadow: 1px 1px 6px #3E80B4;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_MCI:hover {
+    background: #4378CE;
+    border: solid #99C624 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .image-profile {
+     margin-top: 30px;
+ }
