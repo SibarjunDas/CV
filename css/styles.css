@@ -1,5 +1,5 @@
 .top-container {
-    background-color: #FFFDD0;
+    background-color: #d1e7ec;
     padding-top: 100px;
     position: relative;
 }
@@ -13,6 +13,7 @@ h1 {
 }
 
 body {
+    background-color: rgb(243, 243, 229);
     color: #40514E;
     font-family: cursive;
     margin: 0;
@@ -28,6 +29,10 @@ h2 {
 h3, a {
     color: #11999E;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    margin: 20px 20px;
 }
 
 p {
@@ -50,6 +55,7 @@ p {
     background-color: #66bfbf;
     height: 30%;
     margin: 30px auto auto auto;
+    padding: 50px 0 20px;
 }
 
 /* #full-stack {
@@ -117,7 +123,7 @@ p {
     font-size: 20px;
     font-weight: 900;
     padding: 12px;
-    background-color: #2771C5;
+    background-color: #11999E;
     text-shadow: 1px 1px 6px #3E80B4;
     text-decoration: none;
     display: inline-block;
@@ -135,5 +141,15 @@ p {
  }
 
  .image-profile {
-     margin-top: 30px;
+     margin: 100px auto 50px auto;
+ }
+
+ .contact-message {
+     width: 40%;
+     margin: 40px auto;
+ }
+
+ .intro {
+     margin: 50px auto;
+     width: 42.5%;
  }
